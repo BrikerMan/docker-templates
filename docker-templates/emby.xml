@@ -64,7 +64,7 @@
     </Volume>
     <Volume>
       <HostDir>/dev/dri/</HostDir>
-      <ContainerDir>dev/dri/</ContainerDir>
+      <ContainerDir>/dev/dri/</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
