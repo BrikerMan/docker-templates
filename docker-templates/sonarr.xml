@@ -34,8 +34,8 @@
         <Protocol>tcp</Protocol>
       </Port>
       <Port>
-        <HostPort>9897</HostPort>
-        <ContainerPort>9897</ContainerPort>
+        <HostPort>8787</HostPort>
+        <ContainerPort>8787</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
     </Publish>
@@ -47,7 +47,7 @@
     </Variable>
     <Variable>
       <Name>PUID</Name>
-      <Value>99</Value>
+      <Value>1000</Value>
     </Variable>
     <Variable>
       <Name>PGID</Name>
@@ -61,13 +61,13 @@
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/user/appdata/data</HostDir>
-      <ContainerDir>/data</ContainerDir>
+      <HostDir>/mnt/user/media/</HostDir>
+      <ContainerDir>/mnt/user/media/</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/user</HostDir>
-      <ContainerDir>/media</ContainerDir>
+      <HostDir>/mnt/user/downloads</HostDir>
+      <ContainerDir>/mnt/user/downloads</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
